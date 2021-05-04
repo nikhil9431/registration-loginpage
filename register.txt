@@ -1,0 +1,40 @@
+<html>  
+<head>
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+<style>
+
+h1 {
+  color: white;
+}
+</style>
+</head>
+<body>  
+
+<img src="img/collaboration.png">
+<h1>Register Account</h1>
+<form action="servlet/Register" method="post">  
+<p>Name:</p>
+<input type="text" placeholder="Name" name="userName"/> 
+<p>Email Id:</p>
+<input type="text" placeholder="Email Id" name="userEmail"/>
+<p>Password:</p>
+<input type="password" placeholder="Password" name="userPass"/>
+<p>State: </p> 
+<select name="userState">  
+<option>Andhra Pradesh</option> 
+<option>Arunachal Pradesh</option>
+<option>Assam</option>
+<option>Bihar</option>
+<option>Chhattisgarh</option>
+<option>Goa</option>
+<option>Gujarat</option>
+<option>Haryana</option>
+<option>other</option>  
+</select>
+<input type="submit" value="Register">
+<a href="index.html">Already have Account?</a> 
+
+</form>  
+</body>  
+</html>
